@@ -7,6 +7,9 @@
     <Compile Update="IngestionForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="NetworkTopologyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="RealTimeCommandForm.cs">
       <SubType>Form</SubType>
     </Compile>

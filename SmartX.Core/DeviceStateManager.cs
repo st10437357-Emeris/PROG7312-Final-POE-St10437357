@@ -21,6 +21,11 @@ namespace SmartX.Core.Management
         // Maintains a list of currently disconnected nodes to prevent processing duplicate disconnect alerts.
         private readonly HashSet<string> _activeErrorStates;
 
+        public SortedDictionary<DateTime, TelemetryLog> GetHistoricalLogs()
+        {
+            return _historicalLogs;
+        }
+
         public DeviceStateManager()
         {
             _registeredDevices = new Dictionary<string, DeviceProfile>();

@@ -95,6 +95,30 @@
         }
       }
     },
+    "/api/telemetry/process/standard": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/telemetry/process/critical": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/commands/issue": {
       "post": {
         "tags": [
@@ -151,10 +175,152 @@
         }
       }
     },
+    "/api/devices/{macAddress}/disconnect": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "macAddress",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/devices/{macAddress}/resolve": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "macAddress",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/telemetry/history": {
+      "get": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/insights": {
       "get": {
         "tags": [
           "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/network/node/{macAddress}": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "macAddress",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/network/edge": {
+      "post": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NetworkEdge"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/network/mst": {
+      "get": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/network/route": {
+      "get": {
+        "tags": [
+          "SmartX_Ecosystem"
+        ],
+        "parameters": [
+          {
+            "name": "startNode",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "gatewayNode",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -174,6 +340,25 @@
           },
           "action": {
             "type": "string"
+          }
+        }
+      },
+      "NetworkEdge": {
+        "type": "object",
+        "properties": {
+          "sourceMac": {
+            "type": "string"
+          },
+          "destinationMac": {
+            "type": "string"
+          },
+          "signalStrength": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       },

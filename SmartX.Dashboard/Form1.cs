@@ -59,7 +59,8 @@ namespace SmartX.Dashboard
 
         private void btnOpenTopology_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Network Topology & Mesh Routing will be implemented in the final PoE.");
+            var topologyForm = new NetworkTopologyForm();
+            topologyForm.Show();
         }
     }
 }

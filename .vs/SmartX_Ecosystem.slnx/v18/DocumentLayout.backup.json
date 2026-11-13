@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\realtimecommandform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\realtimecommandform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx_ecosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CDF15E2-79C9-6F3F-77D2-5CC98C11813A}|SmartX_Ecosystem\\SmartX_Ecosystem.csproj|solutionrelative:smartx_ecosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|c:\\users\\emeris\\source\\repos\\smartx_ecosystem\\smartx.dashboard\\networktopologyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EA780F-B283-9C6A-1C1C-A9A958A6D72D}|SmartX.Dashboard\\SmartX.Dashboard.csproj|solutionrelative:smartx.dashboard\\networktopologyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RealTimeCommandForm.cs",
-              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\RealTimeCommandForm.cs",
-              "RelativeDocumentMoniker": "SmartX.Dashboard\\RealTimeCommandForm.cs",
-              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\RealTimeCommandForm.cs",
-              "RelativeToolTip": "SmartX.Dashboard\\RealTimeCommandForm.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAmwIMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Program.cs",
+              "RelativeDocumentMoniker": "SmartX_Ecosystem\\Program.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX_Ecosystem\\Program.cs",
+              "RelativeToolTip": "SmartX_Ecosystem\\Program.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAUwMUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T14:42:27.612Z",
+              "WhenOpened": "2026-11-13T21:18:09.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\Program.cs",
+              "RelativeDocumentMoniker": "SmartX.Dashboard\\Program.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\Program.cs",
+              "RelativeToolTip": "SmartX.Dashboard\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T21:18:01.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkTopologyForm.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\NetworkTopologyForm.cs",
+              "RelativeDocumentMoniker": "SmartX.Dashboard\\NetworkTopologyForm.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX_Ecosystem\\SmartX.Dashboard\\NetworkTopologyForm.cs",
+              "RelativeToolTip": "SmartX.Dashboard\\NetworkTopologyForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAowJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T21:00:56.807Z",
               "EditorCaption": ""
             }
           ]
